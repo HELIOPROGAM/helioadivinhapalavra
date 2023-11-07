@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Adivinhe a Palavra</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="game_login.js"></script>
+</head>
+<body>
+
+	<center>
+		<h1>Jogo</h1>
+	
+		<div class="col-lg-4 col-sm-8 col-xs-11 login_div1">
+			<h3 >Jogador 1, entre para jogar.</h3>
+			<label >Nome de Usuário:</label>
+			 <input type="text" id="player1_name_input" class="form-control" placeholder="Nome do Jogador 1">
+			 <br>
+		</div>
+	<br>
+		<div class="col-lg-4 col-sm-8 col-xs-11 login_div2">
+			<h3 >Jogador 2, entre para jogar.</h3>
+			  <label >Nome de Usuário:</label>
+			 <input type="text" id="player2_name_input" class="form-control" placeholder="Nome do Jogador 2">
+			<br>
+		</div>
+		<br>
+			<button style="width:30%" class="btn btn-primary" onclick="addUser()">Entrar</button>
+	</center>
+
+</body>
+</html>
